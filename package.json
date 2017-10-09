@@ -1,22 +1,28 @@
 {
     "name": "nightlion-theme",
     "displayName": "NightLion Color Theme",
-    "description": "",
-    "version": "0.0.1",
+    "description": "NightLion color theme for Visual Studio Code",
+    "version": "1.0",
     "publisher": "nightlion",
     "engines": {
-        "vscode": "^1.16.0"
+        "vscode": "^1.5.0"
     },
     "categories": [
         "Themes"
     ],
+    "homepage": "https://github.com/curvve/nightlion-theme-vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/curvve/nightlion-theme-vscode.git"
+    },
+    "bugs": {
+        "url": "https://github.com/curvve/nightlion-theme-vscode/issues/"
+    },
     "contributes": {
-        "themes": [
-            {
-                "label": "NightLion theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/NightLion theme-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "Night Lion theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/NightLion-color-theme.json"
+        }]
     }
 }
