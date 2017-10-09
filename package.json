@@ -1,0 +1,22 @@
+{
+    "name": "nightlion-theme",
+    "displayName": "NightLion Color Theme",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "nightlion",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NightLion theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NightLion theme-color-theme.json"
+            }
+        ]
+    }
+}
