@@ -2,7 +2,7 @@
     "name": "nightlion-theme",
     "displayName": "NightLion Color Theme",
     "description": "NightLion color theme for Visual Studio Code",
-    "version": "1.0",
+    "version": "0.0.2",
     "publisher": "nightlion",
     "engines": {
         "vscode": "^1.5.0"
